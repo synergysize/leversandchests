@@ -1813,7 +1813,7 @@ Your tone should be direct, slightly playful, and never vague. You must always e
                         logToDebug(`Sending request to proxy server with ${messagesToSend.length} messages...`);
                         
                         // Send request to the proxy server with all required parameters
-                        const response = await fetch('http://localhost:3000/chat', {
+                        const response = await fetch('https://notch2-proxy.onrender.com', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'
